@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Montserrat:wght@200;400;600&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="container" style="padding-top:3cm;" >
@@ -46,7 +47,11 @@
        </div>
        <div class="row">
            <hr>
-           
+           <p id="instructions" style="color:orangered;text-align: center;">Search  for  Cocktail  by  name</p>
+           <form class="searchForm" action="action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
            <hr>
        </div>
 
