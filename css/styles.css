@@ -72,3 +72,45 @@ hr {
     border-top: 10px solid white;
     border-radius: 5px;
 }
+
+#instructions{
+    font-weight: bold;
+    font-family: 'Luckiest Guy', cursive;
+}
+.searchForm{
+    display: flex;
+    justify-content: center;
+}
+
+/* Style the search field */
+form.searchForm input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    background: #f1f1f1;
+  }
+  
+  /* Style the submit button */
+  form.searchForm button {
+    float: left;
+    width: 8%;
+    padding: 10px;
+    background: orangered;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; 
+    cursor: pointer;
+  }
+  
+  form.searchForm button:hover {
+    background: #0b7dda;
+  }
+  
+  /* Clear floats */
+  form.searchForm::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
