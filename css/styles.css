@@ -5,34 +5,34 @@ body{
 .header{
     /* background-color:white; */
     height:5cm;
-    padding-top: 2cm;
+    /* padding-top: 2cm; */
     padding-left: 7cm;
 }
 
 #divbox1{
     padding-left: 1cm;
     float:left;
-    height: 3cm;
-    width: 10%;
+    /* height: 3cm; */
+    /* width: 10%; */
     position: relative;
-    border-style: solid;
-    border-color: #888888;
+    /* border-style: solid; */
+    /* border-color: #888888; */
 }
 #divbox2{
     float:left;
-    height: 3cm;
-    width: 12.8cm;
+    /* height: 3cm; */
+    /* width: 12.8cm; */
     position: relative;
-    border-style: solid;
-    border-color: #888888;
+    /* border-style: solid; */
+    /* border-color: #888888; */
 }
 #divbox3{
     float:left;
-    height: 3cm;
-    width: 20%;
+    /* height: 3cm; */
+    /* width: 22%; */
     position: relative;
-    border-style: solid;
-    border-color: #888888;
+    /* border-style: solid; */
+    /* border-color: #888888; */
 }
 
 h1{
@@ -43,10 +43,21 @@ h1{
     color:orangered;
 }
 
+span{
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: bold;
+}
+#aboutparagraph{
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
 #logo1{
-    padding-left:0.5cm;
+    padding-left:0.cm;
     height:1.8cm;
 }
+
 #logo2{
     height:1.8cm;
 }
