@@ -53,7 +53,7 @@
         <div class="row">
             <hr>
             <p id="instructions" style="color:orangered;text-align: center;">Search for Cocktail by name</p>
-            <form class="searchForm" action="action_page.php">
+            <form class="searchForm" action="#">
                 <input type="text" placeholder="Search.." name="search">
                 <button type="submit"><i class="fa fa-search"></i></button>
             </form>
@@ -61,9 +61,15 @@
         </div>
         <div class="row">
             <h3>Take a look at the popular Cocktails!</h3>
+            <div class="row row-cols-1 row-cols-md-3 g-4" id="cocktails">
+
+            </div>
         </div>
         <div class="row">
             <h3>Take a look at the popular Ingredients!</h3>
+            <div class="popular" id="ingredients">
+
+            </div>
         </div>
     </div>
     <div class="container">
@@ -71,7 +77,7 @@
             <h3 style=" padding-top: 50px; ">
                 WE VALUE YOUR FEEDBACK !
             </h3>
-            <form action="" method="POST" name="contactForm" id="form">
+            <form name="contactForm" id="form">
                 <div class="row">
                     <div class="col col-12 " id="col1">
                         <div class="form-group">
