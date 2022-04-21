@@ -2,14 +2,21 @@ document.addEventListener('DOMContentLoaded', () => {
     const cocktails = document.querySelector('div#cocktails')
 const ingredients = document.querySelector('div#ingredients')
 
-fetch('http://localhost:3000/drinks')
-.then(response => response.json())
-.then(data => {
-   for(let i=0; i<12 ;i++){
-       loadDrinks(data[i])
-       console.log(data[i])
-   }
-})
+function getCocktail(name='m'){
+    fetch(`https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${name}`)
+    .then(response => response.json())
+    .then(result => {
+        const data = result.drinks
+    for(let i=0; i<12 ;i++){
+        loadDrinks(data[i])
+        console.log(data[i])
+    }
+
+    })
+}
+
+getCocktail()
+
 function loadDrinks(drink){
     const imgdiv = document.createElement('div')
     const img = `
