@@ -5,7 +5,7 @@
   }
 
 body{
-    background-color: rgba(83, 22, 22, 0.986);
+    background-color: rgba(41, 6, 6, 0.986);
 }
 
 .header{
@@ -76,6 +76,7 @@ hr {
 #instructions{
     font-weight: bold;
     font-family: 'Luckiest Guy', cursive;
+    font-size: x-large;
 }
 .searchForm{
     display: flex;
@@ -89,10 +90,10 @@ form.searchForm input[type=text] {
     border: 1px solid grey;
     float: left;
     background: #f1f1f1;
-  }
+}
   
-  /* Style the submit button */
-  form.searchForm button {
+/* Style the submit button */
+form.searchForm button {
     float: left;
     width: 8%;
     padding: 10px;
@@ -102,15 +103,62 @@ form.searchForm input[type=text] {
     border: 1px solid grey;
     border-left: none; 
     cursor: pointer;
-  }
+}
   
-  form.searchForm button:hover {
+form.searchForm button:hover {
     background: #0b7dda;
-  }
+}
   
-  /* Clear floats */
-  form.searchForm::after {
+ /* Clear floats */
+form.searchForm::after {
     content: "";
     clear: both;
     display: table;
-  }
+}
+
+h3{
+   text-align: center;
+   font-family: 'Luckiest Guy', cursive;
+   color: orangered; 
+}
+
+#col3 {
+    border: 2px; 
+}
+   
+#col1 {
+    border: 2px;
+}
+  
+#col2 {
+    border: 2px;
+} 
+  
+input[type="text"] {
+    background-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+}
+  
+input[type="email"] {
+    background-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+}
+  
+#message {
+    background-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+  
+input[type="text"]:focus {
+    background-color: peru;
+}
+  
+input[type="email"]:focus {
+    background-color:peru;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: white;
+    font-family: 'Luckiest Guy', cursive;
+}
