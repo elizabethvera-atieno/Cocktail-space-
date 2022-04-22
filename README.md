@@ -34,7 +34,7 @@
  ## License
  MIT License
 ## Live link
-* COCKTAIL SPACE - [COCKTAIL SPACE](https://elizabethvera-atieno.github.io/PIZZA-PALACE/)
+* COCKTAIL SPACE - [COCKTAIL SPACE](https://elizabethvera-atieno.github.io/Cocktail-space-/)
 
 ## Authors Info)
  * Github - [elizabethvera-atieno](https://github.com/elizabethvera-atieno)
